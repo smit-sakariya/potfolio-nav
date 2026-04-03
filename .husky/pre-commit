@@ -1,0 +1,2 @@
+# Prevent commits if build fails
+npm run build:all

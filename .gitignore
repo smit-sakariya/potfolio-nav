@@ -1,0 +1,27 @@
+# ===== Dependencies =====
+node_modules/
+.pnp
+.pnp.js
+
+# ===== Build outputs =====
+dist/
+build/
+
+# ===== Environment / Secrets =====
+# Never commit `.env` files in a real project. I’m including it here only for convenience, so that anyone testing the project doesn’t need to set up the `.env` file manually.
+# .env
+# .env.local
+# .env.*.local
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+
+# ===== Editor / OS =====
+.DS_Store
+.vscode/
+.idea/
+
+# ===== Docker volumes =====
+mongodb_data/

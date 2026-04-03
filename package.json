@@ -1,0 +1,28 @@
+{
+  "name": "shipfinex",
+  "version": "1.0.0",
+  "description": "The **Portfolio NAV Engine** is a high-performance backend system built to manage tokenized crypto portfolios and provide real-time Net Asset Value (NAV) computations. It ingests live crypto ticks from Binance WebSockets, instantly recalculates portfolio valuations dynamically based on real holdings, and pushes those updates to connected clients using Server-Sent Events (SSE). It also features an Alert Engine to notify users when an asset or total NAV crosses a defined threshold.",
+  "main": "index.js",
+  "scripts": {
+    "build:backend": "npm run build --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:all": "npm run build:backend && npm run build:frontend",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smit-sakariya/potfolio-nav.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/smit-sakariya/potfolio-nav/issues"
+  },
+  "homepage": "https://github.com/smit-sakariya/potfolio-nav#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
